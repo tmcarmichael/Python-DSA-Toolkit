@@ -1,17 +1,75 @@
-# Python Data Structures and Algorithms Reference
+# Python Data Structures and Algorithms Toolkit
 
-This repo is a Python3 toolkit and personal reference for data structure and algorithms. Libraries such as 'functools', 'collections', 'regex', and 'itertools' are included, as well as commonly used built-in methods.
+This repo is a toolkit and personal reference for data structure and algorithms in Python3. Libraries are summarized into an accessible subset of the official docs as a usable reference for 90%+ of data structure and algorithm questions.
 
-- The 'collections' library, provides a set of collection classes, including defaultdict, deque, ChainMap, Counter, OrderedDict, and more, which can be leveraged to optimize performance and memory efficiency.
+## 'collections' library: specialized containers
 
-- The 'functools' library offers an array of higher-order functions and operations on callable objects, allowing for functional programming solutions.
+- deque
+- Counter
+- defaultdict
+- OrderedDict
+- namedTuple
 
-- The 'heapq' library contains data structures and methods useful for creating and using a heap.
+## 'functools' library: higher-order functions and decorators
 
-- The 'itertools' library provides a set of optimized, memory-efficient tools for working with iterators, ideally for working with problems containing large data sets.
+- lru_cache
 
-- The 'regex' library offers a set of regular expression operations, useful for pattern matching and text processing.
+## 'heapq' library: priority queue implementation
 
-- The 'string' library contains useful functions for questions involving strings and characters.
+- min heap
+- max heap
 
-- Finally, the repo offers an overview of built-in data structures and algorithms in Python, such as lists, sets, dictionaries, and more, which can be used to solve a wide range of problems.
+## 'itertools' library: iterator and combinatorics tools
+
+#### Iterator tools
+
+- accumulate
+- chain
+- chain.from_iterable
+- pairwise
+- starmap
+
+#### Combinatorics tools
+
+- product
+- permutations
+- combinations
+- combinations_with_replacement
+
+## 'math' library: frequently used math helper methods
+
+- ceil
+- comb
+- floor
+- perm
+- inf
+
+## 'regex' library: python regular expression matching
+
+- compile
+- search
+- match
+- fullmatch
+- split
+- findall
+- sub
+- escape
+
+## 'string' library: string helper methods
+
+- ascii_letters
+- ascii_lowercase
+- ascii_uppercase
+- digits
+- whitespace
+
+## Utility modules:
+
+#### 'timeit': time and compare functions
+
+Ref:
+https://docs.python.org/3/library/timeit.html#command-line-interface
+#### 'pdb': debugging
+
+Ref:
+https://docs.python.org/3/library/pdb.html

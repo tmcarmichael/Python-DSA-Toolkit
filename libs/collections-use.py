@@ -5,8 +5,8 @@ Library methods covered:
 [
     deque,
     Counter,
-    defaultdict
-    OrderedDict
+    defaultdict,
+    OrderedDict,
     namedtuple
 ]
 
