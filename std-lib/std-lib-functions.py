@@ -1,5 +1,5 @@
 '''
-This module contains an overview of standard library functions.
+This module contains an overview of standard library functions. And selects commonly used functions for data structure and algorithm implementations.
 
 TODO: Examples for commonly used functions.
 
@@ -9,114 +9,45 @@ https://docs.python.org/3/library/functions.html
 
 ##################################################################
 ##################################################################
+# Complete builtin function list:
 
-# A
-abs()
-aiter()
-all()
-any()
-anext()
-ascii()
+builtinFxs = [abs(),aiter(),all(),any(),anext(),ascii(),bin(),bool(),breakpoint(),bytearray(),bytes(),callable(),chr(),classmethod(),compile(),complex(),delattr(),dict(),dir(),divmod(),enumerate(),eval(),exec(),filter(),float(),format(),frozenset(),getattr(),globals(),hasattr(),hash(),help(),hex(),id(),input(),int(),isinstance(),issubclass(),iter(),len(),list(),locals(),map(),max(),memoryview(),min(),next(),object(),oct(),open(),ord(),pow(),print(),property(),range(),repr(),reversed(),round(),set(),setattr(),slice(),sorted(),staticmethod(),str(),sum(),super('a'),tuple(),type(),vars(),zip(),__import__()]
 
-# B
-bin()
-bool()
-breakpoint()
-bytearray()
-bytes()
+##################################################################
+##################################################################
+# Useful builtin class functions:
 
-# C
-callable()
-chr()
-classmethod()
-compile()
-complex()
+# ** type-based: **
+# str()
+# int()
+# bool()
+# list()
+# map()
+# dict()
+# set()
+# frozenset()
+# tuple()
+builtinTypeBasedFx = [str(), int(), bool(), list(), map(), dict(), set(), frozenset(), tuple()]
 
-# D
-delattr()
-dict()
-dir()
-divmod()
+# ** non-type-based: **
+# enumerate()
+# filter()
+# range()
+# zip()
+builtinNonTypeBasedFx = [enumerate(), filter(), range(), zip()]
 
-# E
-enumerate()
-eval()
-exec()
+# TODO: Examples
 
-# F
-filter()
-float()
-format()
-frozenset()
+##################################################################
+##################################################################
+# Useful builtin functions:
 
-# G
-getattr()
-globals()
+# abs()
+# all()
+# any()
+# bin()
+# chr()
 
-# H
-hasattr()
-hash()
-help()
-hex()
+builtinUsefulFx = [abs(), all(), any(), bin(), chr()]
 
-# I
-id()
-input()
-int()
-isinstance()
-issubclass()
-iter()
-
-# L 
-len()
-list()
-locals()
-
-# M
-map()
-max()
-memoryview()
-min()
-
-# N
-next()
-
-# O
-object()
-oct()
-open()
-ord()
-
-# P
-pow()
-print()
-property()
-
-# R
-range()
-repr()
-reversed()
-round()
-
-# S
-set()
-setattr()
-slice()
-sorted()
-staticmethod()
-str()
-sum()
-super('a')
-
-# T
-tuple()
-type()
-
-# V
-vars()
-
-# Z
-zip()
-
-# Dunder
-__import__()
+# TODO: Examples

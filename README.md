@@ -14,10 +14,15 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 
 - lru_cache
 
-## **'heapq'** library: priority queue implementation
+## **'heapq'** library: min and max priority queue implementation
 
-- min heap
-- max heap
+- heappush,
+- heappop,
+- heapify,
+- heapsort,
+- merge,
+- nlargest,
+- nsmallest
 
 ## **'itertools'** library: iterator and combinatorics tools
 

@@ -1,13 +1,13 @@
 '''
-'collections-use.py' contains useful imports from the 'collections' library with a few examples.
+'collections-use.py' contains a useful subset of imports from the 'collections' library with a few examples.
 
-Library methods covered:
+Covered:
 [
-    deque,
-    Counter,
-    defaultdict,
-    OrderedDict,
-    namedtuple
+  deque,
+  Counter,
+  defaultdict,
+  OrderedDict,
+  namedtuple
 ]
 
 Ref:
@@ -16,6 +16,8 @@ https://docs.python.org/3/library/collections.html
 
 ##################################################################
 ##################################################################
+# deque
+
 from collections import deque
 '''
 'append()'
@@ -51,6 +53,8 @@ len(d)
 
 ##################################################################
 ##################################################################
+# Counter
+
 from collections import Counter
 '''
 '_keep_positive()'
@@ -115,6 +119,8 @@ c <= d                      # inclusion:  c[x] <= d[x]
 
 ##################################################################
 ##################################################################
+# defaultdict
+
 from collections import defaultdict
 '''
 'clear()'
@@ -168,6 +174,8 @@ sorted(d.items()) # [('blue', {2, 4}), ('red', {1, 3})]
 
 ##################################################################
 ##################################################################
+# OrderedDict
+
 from collections import OrderedDict
 '''
 'clear()'
@@ -204,6 +212,8 @@ for key, value in d.items():
 
 ##################################################################
 ##################################################################
+# namedtuple
+
 from collections import namedtuple
 '''
 '_asdict()'
