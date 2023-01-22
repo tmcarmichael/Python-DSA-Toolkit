@@ -109,4 +109,5 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - union find
 
 ## Resources:
-![DSA Resources](https://github.com/tmcarmichael/Python-DSA-Toolkit/blob/main/py-dsa-resources/resources.md)
+
+<https://github.com/tmcarmichael/Python-DSA-Toolkit/blob/main/py-dsa-resources/resources.md>
