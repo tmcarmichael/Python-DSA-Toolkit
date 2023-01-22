@@ -1,8 +1,19 @@
 # Python Data Structures and Algorithms Toolkit
 
-This repo is a toolkit and personal reference for data structure and algorithms in Python3. Libraries are summarized into an accessible subset of the official docs as a usable reference for 90%+ of data structure and algorithm questions.
+This repo is a toolkit and personal reference for data structure and algorithms in Python3.
 
-## 'collections' library: specialized containers
+- Libraries are summarized into an accessible subset of the official docs as a usable reference for 90%+ of data structure and algorithm questions.
+
+- Data structure implementations are added.
+
+- Patterns for common problem types are in progress.
+
+- Links and resources are available.
+
+![BigO](./assets/bigO.jpeg)
+
+## Python Critical Libraries
+### 'collections' library: specialized containers
 
 - deque
 - Counter
@@ -10,23 +21,23 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - OrderedDict
 - namedTuple
 
-## 'functools' library: higher-order functions and decorators
+### 'functools' library: higher-order functions and decorators
 
 - lru_cache
 
-## 'heapq' library: min and max priority queue implementation
+### 'heapq' library: min and max priority queue implementation
 
-- heappush,
-- heappop,
-- heapify,
-- heapsort,
-- merge,
-- nlargest,
+- heappush
+- heappop
+- heapify
+- heapsort
+- merge
+- nlargest
 - nsmallest
 
-## 'itertools' library: iterator and combinatorics tools
+### 'itertools' library: iterator and combinatorics tools
 
-#### Iterator
+##### Iterator
 
 - accumulate
 - chain
@@ -34,14 +45,14 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - pairwise
 - starmap
 
-#### Combinatorics
+##### Combinatorics
 
 - product
 - permutations
 - combinations
 - combinations_with_replacement
 
-## 'math' library: frequently used math helper methods
+### 'math' library: frequently used math helper methods
 
 - ceil
 - comb
@@ -49,7 +60,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - perm
 - inf
 
-## 'regex' library: python regular expression matching
+### 'regex' library: python regular expression matching
 
 - compile
 - search
@@ -60,20 +71,47 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - sub
 - escape
 
-## 'string' library: string helper methods
+### 'string' library: string helper methods
 
 - ascii_letters
 - ascii_lowercase
 - ascii_uppercase
 - digits
 
-## Utility modules:
+## Python Data Structures:
 
-#### 'timeit': time and compare functions
+- deque
+- doubly linked-list
+- linked-list
+- queue
+- stack
+- tree
 
-Ref:
-https://docs.python.org/3/library/timeit.html#command-line-interface
-#### 'pdb': debugging
+## DSA Patterns:
 
-Ref:
-https://docs.python.org/3/library/pdb.html
+- backtracking
+- bitwise manipulation
+- cyclic sort
+- dynamic programming
+- fast and slow pointers
+- greedy algorithms
+- hash maps
+- in-place reversal of a linked list
+- k-way merge
+- lru-cache
+- merge intervals
+- modified binary search
+- sliding window
+- stacks
+- subsets
+- top-k-elements
+- topological sort
+- tree breath first search
+- tree depth first search
+- tries
+- two heaps
+- two pointers
+- union find
+
+## Resources:
+![DSA Resources](DSA-Toolkit/blob/main/py-dsa-resources/resources.md)
