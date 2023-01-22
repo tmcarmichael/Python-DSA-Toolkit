@@ -1,15 +1,15 @@
-# <p style='color:navy'>Python Data Structures and Algorithms (DSA) Toolkit</p>
+# Python Data Structures and Algorithms (DSA) Toolkit
 
 This repo is a toolkit and personal reference for data structure and algorithms in Python3. Ideally the content covers >90% of data structure and algorithm questions. This repo includes:
 
 - Python3 critical libraries summarized into useful subsets.
 - Python3 Data structure implementations.
-- Patterns and useful templates for common categories of DSA questions. <t style='color:red'>[In Progress] </t>
+- Patterns and useful templates for common categories of DSA questions. 🛑 [In Progress]
 - List of resource links updated periodically.
 
-## <p style='color:navy'>Python Critical Libraries
+## 🔹 Python Critical Libraries
 
-### <t style='color:orange'>'collections'</t>: specialized containers
+### 🔸'collections': specialized containers
 
 - deque
 - Counter
@@ -17,11 +17,11 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - OrderedDict
 - namedTuple
 
-### <t style='color:orange'>'functools'</t>: higher-order functions and decorators
+### 🔸'functools': higher-order functions and decorators
 
 - lru_cache
 
-### <t style='color:orange'>'heapq'</t>: min and max priority queue implementation
+### 🔸'heapq': min and max priority queue implementation
 
 - heappush
 - heappop
@@ -31,7 +31,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - nlargest
 - nsmallest
 
-### <t style='color:orange'>'itertools'</t>: iterator and combinatorics tools
+### 🔸'itertools': iterator and combinatorics tools
 
 #### Iterator
 
@@ -48,7 +48,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - combinations
 - combinations_with_replacement
 
-### <t style='color:orange'>'math'</t>: frequently used math helper methods
+### 🔸'math': frequently used math helper methods
 
 - ceil
 - comb
@@ -56,7 +56,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - perm
 - inf
 
-### <t style='color:orange'>'regex'</t>: Python regular expression matching
+### 🔸'regex': Python regular expression matching
 
 - compile
 - search
@@ -67,14 +67,14 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - sub
 - escape
 
-### <t style='color:orange'>'string'</t>: string helper methods
+### 🔸'string': string helper methods
 
 - ascii_letters
 - ascii_lowercase
 - ascii_uppercase
 - digits
 
-## <t style='color:navy'>Python Data Structures:</t>
+## 🔹 Python Data Structures:
 
 - deque
 - doubly linked-list
@@ -83,7 +83,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - stack
 - tree
 
-## <t style='color:navy'>DSA Patterns:</t>
+## 🔹 DSA Patterns:
 
 - backtracking
 - bitwise manipulation
@@ -109,6 +109,6 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - two pointers
 - union find
 
-## <t style='color:navy'>Resources:</t>
+## 🔹 Resources:
 
 <https://github.com/tmcarmichael/Python-DSA-Toolkit/blob/main/py-dsa-resources/resources.md>
