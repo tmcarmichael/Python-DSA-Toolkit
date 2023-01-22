@@ -10,11 +10,11 @@
 - https://github.com/AbdulMalikDev/PythonCheatSheet
 - https://github.com/cl2333/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions
 
-### 'timeit': time and compare functions
+## Useful utility Py3 libs:
 
-Ref:
-https://docs.python.org/3/library/timeit.html#command-line-interface
-### 'pdb': debugging
+#### 'timeit': time functions
 
-Ref:
-https://docs.python.org/3/library/pdb.html
+- https://docs.python.org/3/library/timeit.html#command-line-interface
+#### 'pdb': debugging
+
+- https://docs.python.org/3/library/pdb.html

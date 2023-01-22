@@ -1,16 +1,11 @@
-# Python Data Structures and Algorithms Toolkit
+# Python Data Structures and Algorithms (DSA) Toolkit
 
-This repo is a toolkit and personal reference for data structure and algorithms in Python3.
+This repo is a toolkit and personal reference for data structure and algorithms in Python3. Ideally the content should cover 90%+ of data structure and algorithm questions. This repo includes:
 
-- Libraries are summarized into an accessible subset of the official docs as a usable reference for 90%+ of data structure and algorithm questions.
-
-- Data structure implementations are added.
-
-- Patterns for common problem types are in progress.
-
-- Links and resources are available.
-
-![BigO](./assets/bigO.jpeg)
+- Python3 Libraries summarized into key subsets.
+- Python3 Data structure implementations.
+- Patterns and useful templates for common categories of DSA questions.
+- List of resource links updated periodically.
 
 ## Python Critical Libraries
 ### 'collections' library: specialized containers
