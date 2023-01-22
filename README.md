@@ -1,14 +1,15 @@
-# Python Data Structures and Algorithms (DSA) Toolkit
+# <p style='color:navy'>Python Data Structures and Algorithms (DSA) Toolkit</p>
 
-This repo is a toolkit and personal reference for data structure and algorithms in Python3. Ideally the content should cover 90%+ of data structure and algorithm questions. This repo includes:
+This repo is a toolkit and personal reference for data structure and algorithms in Python3. Ideally the content covers >90% of data structure and algorithm questions. This repo includes:
 
-- Python3 Libraries summarized into key subsets.
+- Python3 critical libraries summarized into useful subsets.
 - Python3 Data structure implementations.
-- Patterns and useful templates for common categories of DSA questions.
+- Patterns and useful templates for common categories of DSA questions. <t style='color:red'>[In Progress] </t>
 - List of resource links updated periodically.
 
-## Python Critical Libraries
-### 'collections' library: specialized containers
+## <p style='color:navy'>Python Critical Libraries
+
+### <t style='color:orange'>'collections'</t>: specialized containers
 
 - deque
 - Counter
@@ -16,11 +17,11 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - OrderedDict
 - namedTuple
 
-### 'functools' library: higher-order functions and decorators
+### <t style='color:orange'>'functools'</t>: higher-order functions and decorators
 
 - lru_cache
 
-### 'heapq' library: min and max priority queue implementation
+### <t style='color:orange'>'heapq'</t>: min and max priority queue implementation
 
 - heappush
 - heappop
@@ -30,9 +31,9 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - nlargest
 - nsmallest
 
-### 'itertools' library: iterator and combinatorics tools
+### <t style='color:orange'>'itertools'</t>: iterator and combinatorics tools
 
-##### Iterator
+#### Iterator
 
 - accumulate
 - chain
@@ -40,14 +41,14 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - pairwise
 - starmap
 
-##### Combinatorics
+#### Combinatorics:
 
 - product
 - permutations
 - combinations
 - combinations_with_replacement
 
-### 'math' library: frequently used math helper methods
+### <t style='color:orange'>'math'</t>: frequently used math helper methods
 
 - ceil
 - comb
@@ -55,7 +56,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - perm
 - inf
 
-### 'regex' library: python regular expression matching
+### <t style='color:orange'>'regex'</t>: Python regular expression matching
 
 - compile
 - search
@@ -66,14 +67,14 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - sub
 - escape
 
-### 'string' library: string helper methods
+### <t style='color:orange'>'string'</t>: string helper methods
 
 - ascii_letters
 - ascii_lowercase
 - ascii_uppercase
 - digits
 
-## Python Data Structures:
+## <t style='color:navy'>Python Data Structures:</t>
 
 - deque
 - doubly linked-list
@@ -82,7 +83,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - stack
 - tree
 
-## DSA Patterns:
+## <t style='color:navy'>DSA Patterns:</t>
 
 - backtracking
 - bitwise manipulation
@@ -108,6 +109,6 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - two pointers
 - union find
 
-## Resources:
+## <t style='color:navy'>Resources:</t>
 
 <https://github.com/tmcarmichael/Python-DSA-Toolkit/blob/main/py-dsa-resources/resources.md>
