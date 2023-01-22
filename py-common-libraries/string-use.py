@@ -7,7 +7,6 @@ Covered:
   ascii_lowercase,
   ascii_uppercase,
   digits,
-  whitespace
 ]
 
 Ref:
@@ -19,29 +18,22 @@ import string
 ##################################################################
 # ascii_letters
 
-# TODO
+s = string.ascii_letters() # 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 ##################################################################
 ##################################################################
 # ascii_lowercase
 
-# TODO
+s = string.ascii_lowercase() # 'abcdefghijklmnopqrstuvwxyz'
 
 ##################################################################
 ##################################################################
 # ascii_uppercase
 
-# TODO
+s = string.ascii_uppercase() # 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 ##################################################################
 ##################################################################
 # digits
 
-# Example of digits() method:
-a = string.digits('1234567890')
-
-##################################################################
-##################################################################
-# whitespace
-
-# TODO
+s = string.digits() # '0123456789'

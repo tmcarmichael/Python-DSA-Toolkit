@@ -40,16 +40,22 @@ from collections import deque
 # Create a new deque
 d = deque()
 
-# Add elements to the deque
+# Append to or pop from the end (right)
 d.append(1)
+d.pop()
+d.extend([1,2,3]) # append multiple items in iterable
+
+# Append to or pop from the front (left)
 d.appendleft(2)
+d.popleft()
+d.extendleft([1,2,3]) # append multiple items in iterable
 
-# Remove elements from the deque
-d.pop() # returns 1
-d.popleft() # returns 2
-
-# check the length of deque
-len(d)
+d.insert(1, 3) # Insert an element at a given position, insert 3 at index 1
+d.clear() # Clear the deque
+d.count(2) # Count the occurrence of an element
+d.index(2) # Index of the first occurrence of an element
+d.reverse() # Reverse the elements of the queue in place
+d.rotate(3) # Rotate elements to the right n steps, left if n is negative
 
 ##################################################################
 ##################################################################
@@ -79,6 +85,11 @@ c = Counter()
 c['a'] += 1
 c['b'] += 1
 c['c'] += 3
+
+# See keys, values, or items(k:v tuples):
+c.keys()
+c.values()
+c.items()
 
 # Add to Counter using the update() method:
 c = Counter()
@@ -141,6 +152,7 @@ from collections import defaultdict
 '''
 When each key is encountered for the first time, it is not already in the mapping; so an entry is automatically created using the default_factory function which returns an empty list. The list.append() operation then attaches the value to the new list. When keys are encountered again, the look-up proceeds normally (returning the list for that key) and the list.append() operation adds another value to the list. This technique is simpler and faster than an equivalent technique using dict.setdefault():
 '''
+
 # Method using collections 'defaultdict':
 s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
 d = defaultdict(list)
@@ -199,7 +211,8 @@ d['first'] = 1
 d['second'] = 2
 d['third'] = 3
 
-# Move an existing key to either end of an ordered dictionary. The item is moved to the right end if last is true (the default) or to the beginning if last is false.
+# Move an existing key to either end of an ordered dictionary.
+# The item is moved to the right end if last is true (the default) or to the beginning if last is false.
 d = OrderedDict.fromkeys('abcde')
 d.move_to_end('b')
 ''.join(d) # 'acdeb'

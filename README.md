@@ -2,7 +2,7 @@
 
 This repo is a toolkit and personal reference for data structure and algorithms in Python3. Libraries are summarized into an accessible subset of the official docs as a usable reference for 90%+ of data structure and algorithm questions.
 
-## **'collections'** library: specialized containers
+## 'collections' library: specialized containers
 
 - deque
 - Counter
@@ -10,11 +10,11 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - OrderedDict
 - namedTuple
 
-## **'functools'** library: higher-order functions and decorators
+## 'functools' library: higher-order functions and decorators
 
 - lru_cache
 
-## **'heapq'** library: min and max priority queue implementation
+## 'heapq' library: min and max priority queue implementation
 
 - heappush,
 - heappop,
@@ -24,7 +24,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - nlargest,
 - nsmallest
 
-## **'itertools'** library: iterator and combinatorics tools
+## 'itertools' library: iterator and combinatorics tools
 
 #### Iterator
 
@@ -41,7 +41,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - combinations
 - combinations_with_replacement
 
-## **'math'** library: frequently used math helper methods
+## 'math' library: frequently used math helper methods
 
 - ceil
 - comb
@@ -49,7 +49,7 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - perm
 - inf
 
-## **'regex'** library: python regular expression matching
+## 'regex' library: python regular expression matching
 
 - compile
 - search
@@ -60,21 +60,20 @@ This repo is a toolkit and personal reference for data structure and algorithms 
 - sub
 - escape
 
-## **'string'** library: string helper methods
+## 'string' library: string helper methods
 
 - ascii_letters
 - ascii_lowercase
 - ascii_uppercase
 - digits
-- whitespace
 
 ## Utility modules:
 
-#### **'timeit'**: time and compare functions
+#### 'timeit': time and compare functions
 
 Ref:
 https://docs.python.org/3/library/timeit.html#command-line-interface
-#### **'pdb'**: debugging
+#### 'pdb': debugging
 
 Ref:
 https://docs.python.org/3/library/pdb.html

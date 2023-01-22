@@ -17,66 +17,58 @@ Ref:
 https://docs.python.org/3/library/re.html
 '''
 
+import re
 ##################################################################
 ##################################################################
-# compile 
+# compile - compile a pattern into a regular expression object
 
-from regex import compile
-
-# TODO
-
-##################################################################
-##################################################################
-# search 
-
-from regex import search
-
-# TODO
+r = re.compile('[a-z]')
+r.match('a') # <re.Match object; span=(0, 1), match='a'>
 
 ##################################################################
 ##################################################################
-# match 
+# search - if pattern is found anywhere in the string
 
-from regex import match
-
-# TODO
-
-##################################################################
-##################################################################
-# fullmatch 
-
-from regex import fullmatch
-
-# TODO
+m = re.search('[a-z]', 'abc') # <re.Match object; span=(0, 1), match='a'>
+m.group(0) # 'a'
 
 ##################################################################
 ##################################################################
-# split 
+# match - if part of string matches the pattern
 
-from regex import split
-
-# TODO
-
-##################################################################
-##################################################################
-# findall 
-
-from regex import findall
-
-# TODO
+m = re.match('[a-z]', 'abc') # <re.Match object; span=(0, 1), match='a'>
+m.group(0) # 'a'
 
 ##################################################################
 ##################################################################
-# sub 
+# fullmatch - if whole string matches the pattern
 
-from regex import sub
+m = re.fullmatch('[a-z]', 'abcJ') # None
+m.group(0) # Error (NoneType has no attribute 'group'
 
-# TODO
+m = re.fullmatch('[a-z]', 'abc') # <re.Match object; span=(0, 3), match='abc'>
+m.group(0) # 'abc'
 
 ##################################################################
 ##################################################################
-# escape 
+# split - split string by the occurrences of pattern
 
-from regex import escape
+s = re.split('[a-z]', 'aD&*^b') # ['', 'D&*^', '']
 
-# TODO
+##################################################################
+##################################################################
+# findall - find all occurrences of pattern in string
+
+s = re.findall('[a-z]', 'abc def GHI JKL') # ['a', 'b', 'c', 'd', 'e', 'f']
+
+##################################################################
+##################################################################
+# sub - replace all occurrences of pattern in string with repl
+
+s = re.sub('[a-z]', 'Z', 'abc def GHI JKL') # 'ZZZ ZZZ GHI JKL'
+
+##################################################################
+##################################################################
+# escape - escape all the characters in pattern
+
+s = re.escape('abc def GHI JKL') # 'abc\\ def\\ GHI\\ JKL'
